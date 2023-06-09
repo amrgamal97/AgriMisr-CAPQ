@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.76" height="115.534" viewBox="0 0 144.76 115.534">
+  <defs>
+    <filter id="Rectangle_2500" x="31.242" y="0" width="113.518" height="113.518" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2501" x="0" y="31.242" width="84.292" height="84.292" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_28228" data-name="Group 28228" transform="translate(-2058.128 679.376)">
+    <g id="ICON" transform="translate(2067.128 -673.376)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_2500)">
+        <rect id="Rectangle_2500-2" data-name="Rectangle 2500" width="108.873" height="26.21" rx="4" transform="translate(40.24 82.98) rotate(-45)" fill="#518432"/>
+      </g>
+      <path id="Path_25145" data-name="Path 25145" d="M2149.029-420.927l8.765-8.857,10.171,27.8Z" transform="translate(-2102.217 482.279)" fill="#3b5234" opacity="0.3" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_2501)">
+        <rect id="Rectangle_2501-2" data-name="Rectangle 2501" width="67.542" height="26.21" rx="3" transform="translate(27.53 37.24) rotate(45)" fill="#518432"/>
+      </g>
+    </g>
+  </g>
+</svg>

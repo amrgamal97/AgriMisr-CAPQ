@@ -1,0 +1,83 @@
+@use "./main-variables" as *;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  direction: rtl;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Almarai", sans-serif !important;
+  background-color: #fafafa !important;
+  min-height: 100vh;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+
+a {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: $unnamed-color;
+  width: 100%;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  &:hover {
+    background-color: #232921;
+  }
+}
+
+.back-btn {
+  background-color: white;
+  width: 100%;
+  color: $unnamed-color;
+  padding: 8px;
+  border: 2px solid $unnamed-color;
+  width: 100%;
+  border-radius: 8px;
+  &:hover {
+    background-color: #232921;
+    border: 2px solid #232921;
+    color: white;
+  }
+}
+
+%main-background {
+  background-image: url("../img/registeration/Group 36416.svg");
+  background-repeat: no-repeat;
+  background-size: 600px auto;
+  background-position: right -200px bottom -99px;
+}
+
+// main {
+//   margin-top: 50px;
+// }
+
+input:focus {
+  outline: none;
+}

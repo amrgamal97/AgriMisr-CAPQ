@@ -1,0 +1,172 @@
+@use "main-variables" as *;
+
+.page-footer {
+  // padding-top: 25px;
+  background-color: #ffffff;
+  border-top: 1px solid $unnamed-color;
+  margin-top: auto;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    .line {
+      height: 145px;
+      width: 1px;
+      margin: 0 10px;
+      background-color: #b58617;
+      @media screen and (max-width: 767px) {
+        & {
+          display: none;
+        }
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      & {
+        justify-content: center;
+      }
+    }
+    .box {
+      margin: 0 15px;
+      ul {
+        padding: inherit;
+      }
+    }
+    img {
+      width: 250px;
+    }
+    .contact {
+      position: relative;
+      direction: rtl;
+      border-right: 1px solid $unnamed-color;
+      padding: 0 35px;
+
+      .icons {
+        display: flex;
+        justify-content: flex-start;
+        color: $unnamed-color;
+        font-size: 12px;
+        padding: 0 25px;
+        padding-top: 20px;
+        i {
+          padding: 0 5px;
+        }
+      }
+      ul {
+        li {
+          padding: 3px 0;
+          &:nth-child(1) {
+            a {
+              color: $unnamed-color;
+              font-weight: $font-weight-bold;
+              font-size: 12px;
+            }
+          }
+          &:nth-child(2) {
+            color: #656565;
+            font-size: 12px;
+          }
+          &:nth-child(3) {
+            a {
+              color: #656565;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .currency {
+      .btn {
+        color: $unnamed-color;
+        background-color: transparent;
+        border: none;
+      }
+      .dropdown-menu {
+        min-width: fit-content !important;
+        hr {
+          padding: 0;
+          margin: 0;
+        }
+        a {
+          color: $unnamed-color;
+          font-size: 12px;
+        }
+      }
+    }
+    .accounts {
+      text-align: center;
+      h3 {
+        color: $unnamed-color;
+        font-size: 18px;
+        font-weight: $font-weight-bold;
+        margin: 0;
+      }
+      ul {
+        li {
+          padding: 5px 0;
+          a {
+            color: #949498;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .addons {
+      text-align: center;
+      h3 {
+        color: $unnamed-color;
+        font-size: 18px;
+        font-weight: $font-weight-bold;
+        margin: 0;
+      }
+      ul {
+        li {
+          padding: 5px 0;
+          a {
+            color: #949498;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .infos {
+      text-align: center;
+      h3 {
+        color: $unnamed-color;
+        font-size: 18px;
+        font-weight: $font-weight-bold;
+        margin: 0;
+      }
+      ul {
+        li {
+          padding: 5px 0;
+          a {
+            color: #949498;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .sponsors {
+      display: grid;
+      grid-auto-flow: row;
+      gap: 15px;
+      align-items: center;
+      display: flex;
+    }
+  }
+  .copywrite {
+    background-color: $unnamed-color;
+    .container {
+      justify-content: start;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      text-align: end;
+      color: white;
+    }
+  }
+}

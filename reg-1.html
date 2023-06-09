@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPQ</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+
+    <!-- Import Main Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Import OWL Carousel -->
+    <link rel="stylesheet" href="./assets/lib/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/lib/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <header class="home-header">
+      <div class="container-fluid">
+        <div class="sec-logo text-center">
+          <a href="./index.html">
+            <img
+              src="./assets/img/registerations/Group 32104.png"
+              class="img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-register-screen">
+      <div class="main-content">
+        <div class="container">
+          <div class="content">
+            <h2 class="title text-end">تأكيد بيانات الحساب</h2>
+            <div class="account-type-select">
+              <form>
+                <h3>نوع الحساب</h3>
+                <input type="radio" name="account-type" id="personal" />
+                <label for="personal">
+                  <p>مزارع</p>
+                </label>
+                <input type="radio" checked name="account-type" id="company" />
+                <label for="company">
+                  <p>شركات</p>
+                </label>
+              </form>
+            </div>
+            <div class="input-field">
+              <h3 class="mt-0">الاسم</h3>
+              <input type="email" placeholder="احمد محمد" />
+            </div>
+            <div
+              class="input-contact-group d-flex flex-column flex-lg-row justify-content-center align-items-center"
+            >
+              <div class="box">
+                <h3>رقم الموبايل</h3>
+                <input type="email" placeholder="٠١٢٨٤٨٩١٧٢٣" />
+              </div>
+              <div class="box">
+                <h3>البريد الالكتروني</h3>
+                <input type="email" placeholder="ahmed@gmail.com" />
+              </div>
+            </div>
+            <h3>كلمة السر</h3>
+            <div class="input-field-pass">
+              <input type="email" placeholder="كلمة السر" />
+              <img src="./assets/img/registerations/Group 36575.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="submit-register">
+      <a href="./reg-2.html">تسجيل</a>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
