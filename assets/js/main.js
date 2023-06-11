@@ -13,6 +13,13 @@ let parentRemove = document.querySelector(".parent-to-remove");
 let logoChanger = document.querySelectorAll(".logo-changer");
 let inputsCounter = 0;
 
+const tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+const tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
+
 function addNewInput() {
   inputsCounter++;
   const clonedElement = firstInputClone.cloneNode(true);

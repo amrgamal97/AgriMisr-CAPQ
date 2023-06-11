@@ -1336,9 +1336,9 @@ main {
     font-weight: bold;
     font-size: 18px;
   }
-  img {
-    // width: 150px;
-  }
+  // img {
+  // width: 150px;
+  // }
 
   .details-container {
     display: grid;
@@ -1367,4 +1367,10 @@ main {
     text-align: center;
     margin: 7rem 0;
   }
+}
+
+.info-circle {
+  position: relative;
+  top: -17px;
+  left: 9px;
 }
