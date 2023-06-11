@@ -156,7 +156,8 @@ function marketingSuccess() {
     iconColor: "transparent",
     timer: 1500,
   }).then(() => {
-    window.location.href = "https://agrimisr-seller.vercel.app/";
+    window.location.href =
+      "https://agrimisr-seller.vercel.app/main-dashboard.html";
   });
 }
 
